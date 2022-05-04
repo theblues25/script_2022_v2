@@ -5,3 +5,4 @@ addr = '1.1.1.0/24'
 print(nhc)
 if IPAddress(nhc) in IPNetwork(addr):
     print('match')
+    print('xxx')
